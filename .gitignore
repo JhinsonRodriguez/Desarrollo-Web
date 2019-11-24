@@ -1,1 +1,3 @@
-images/jpg/*
+images/jpg/*.jpg
+images/png/*.png
+images/svg/*.svg
