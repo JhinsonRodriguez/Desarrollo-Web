@@ -17,12 +17,12 @@
 </head>
 <body>
     <!-- <header style="color:red; background:yellow"> -->
-    <header>
+    <header class="header">
         <div>
-            <figure>
+            <figure class="logo">
                 <img src="images/png/logo.png" alt="Logo de htpps://JhinsonRodriguez.github.io">
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
                         <a href="#portafolio">Portafolio</a>
@@ -39,7 +39,7 @@
     </header>
     
     <section>
-        <h1>
+        <h1 class="hero">
             Hola! Soy <strong>Jhinson Rodriguez,</strong><br>
             desarrollador <strong>Javascript</strong> <br>
             con pásion por las <strong>creaciones</strong> <br>
@@ -50,31 +50,31 @@
         </figure>
     </section>
 
-    <section id="portafolio">
+    <section id="portafolio" class="portfolio">
         <h2>Portafolio (Proyectos destacados)</h2>
-            <article>
-                <h3>Catálago de Precios</h3>
+            <article class="project">
+                <h3 class="project_title">Catálago de Precios</h3>
 
-                <p>
+                <p class="project-course">
                     <small>JavaScript / Node JS</small>
                 </p>
         
-                <p>
+                <p class="project_date">
                     <strong>Fecha:</strong> 01/12/2020
                 </p>
                     
-                <p>
+                <p class="project_url">
                     <strong>Puedes verlo en:</strong> <a href="">www.google.com</a>
                 </p>
                     
-                <p>
+                <p class="project_description">
                     Catálago de Precios fue el resultado de mi primer proyecto personal en la cual le dediqué 3 meses de trabajo.
                     Utilicé los conocimientos que tengo en JavaScript y Node JS.
                     El proyecto realiza busquedas en la lista de precios de una linea de productos que cuenta una empresa. 
                 </p>
                 
-                <figure>
-                    <img src="./images/png/platzi-video-react-native.png" alt="">
+                <figure class="project_imageContainer">
+                    <img class="project_image" src="./images/png/platzi-video-react-native.png" alt="">
                 </figure>
             </article>
 
@@ -133,16 +133,16 @@
 
     <section id="eventos">
         <h2>Mas sobre mi experiencia</h3>
-            <article>
-                <figure>
-                    <img src="./images/jpg/platzi-conf.jpg" width="200" height="150" alt="">
+            <article class="event">
+                <figure class="event_imageContainer">
+                    <img class="event_image" src="./images/jpg/platzi-conf.jpg" width="200" height="150" alt="">
                 </figure>
 
-                <h3>PlatziConf México 2018</h3>
-                <p>
+                <h3 class="event_title">PlatziConf México 2018</h3>
+                <p class="event_description">
                     El evento más grande sobre gente que quiere aprender más de internet. En este evento te comparto como tener una vida de constante aprendizaje.
                 </p>
-                <a href="https://www.google.com" target="_blank">Ver Plática</a>
+                <a class="event_url" href="https://www.google.com" target="_blank">Ver Plática</a>
             </article>
 
             <article>
@@ -182,9 +182,9 @@
             </article>
     </section>
     
-    <section id="contacto">
-        <form action="https://www.google.com">
-            <h3>¿Creamos algo juntos?</h3>
+    <section id="contacto" class="contact">
+        <form class="form_email" action="https://www.google.com">
+            <h3 class="form_title">¿Creamos algo juntos?</h3>
             <!-- <label for="email">Déjame tu email</label> -->
             <!-- <input type="text" placeholder="Déjame tu email" id="email"> -->
             <!-- <input type="submit" value="texto del botón"> -->
@@ -192,6 +192,6 @@
             <button>Enviar</button>
         </form>
     </section>
-    <section>footer</section>
+    <section class="footer">footer</section>
 </body>
 </html>
