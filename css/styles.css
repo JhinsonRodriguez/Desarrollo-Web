@@ -3,18 +3,19 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    /* margin: 0; */
+}
+
 .logo-name {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Fjalla One', sans-serif;
-    /* font-style: italic; */
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -23,35 +24,36 @@ h6 {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: space-between;
     height: 100px;
+    align-items: center; 
 }
 
 .header-logoContainer {
     margin: 0;
     padding: 0;
-    /* display: flex; */
 }
 
 .header-logo {
-    margin: 8px 0 0 0;
+    margin: 0;
     padding: 0;
     width: 100px;
-    height: 80px;
-    /* align-items: center; */
+    height: 100px;
 }
 
 .logo-nameContainer {
+    width: 500px;
+    /* height: 100px; */
     margin: 0;
     padding: 0;
-    /* display: flex; */
+    display: flex;
 }
 
 .logo-name {
-    margin: 40px 0 0 0;
+    margin: 0 10px 0 10px;
     padding: 0;
-    width: 250px;
-    height: 40px;
-    align-content: center;    
+    width: 150px;
+    /* height: 30px; */
 }
 
 
@@ -59,25 +61,55 @@ h6 {
     /* width: 500px; */
     /* height: 86px; */
     /* display: flex; */
-    width: 100%;
-    margin: 0;
-    padding: 0;    
+    /* width: 100%; */
+    /* margin: 0; */
+    /* padding: 0;     */
 }
 
 .menu-list {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0; 
-    justify-content: center;
+    /* display: flex; */
+    /* list-style: none; */
+    /* margin: 0; */
+    /* padding: 0;  */
+    /* justify-content: center; */
 }
 
 .menu-item {
-    margin: 5px;
+    /* margin: 5px; */
     /* display: flex; */
 }
 
 .menu-link {
-    color: white;
-    text-decoration: none;
+    /* color: white; */
+    /* text-decoration: none; */
+}
+
+
+.cuerpo {
+    width: 1500px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuerpo1,
+.cuerpo2,
+.cuerpo3 {
+    width: 250px;
+    height: 50px;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    width: 250px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.item {
+
 }
