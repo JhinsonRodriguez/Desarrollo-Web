@@ -127,22 +127,25 @@ h6 {
     font-size: 16px;
     color: #026fff;
     font-weight: 600;
+
 }
 
 
 .project {
     background-color: #ffffff;
+    height: 300px;
     border: 1px solid black;
     margin: 50px 35px 0 35px;
-    padding: 20px 15px;
+    padding: 10px 15px 20px 15px;
     border-radius: 7px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
+    letter-spacing: -0.5px;
 } 
 
 .project-details {
-    width: 500px;
+    width: 400px;
 }
 
 .project-course,
@@ -152,19 +155,27 @@ h6 {
 }
 
 .project-title {
-    font-size: 20px;
-    margin-bottom: 5px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+    margin: 5px 0 5px 0;
     /* padding: 0; */
 }
 
-/* .project-course {
+.project-course {
     font-size: 14px;
-    margin-bottom: 0;
-    padding: 0;
-} */
+    font-weight: 400;
+    color: rgb(136, 135, 135);
+    /* margin-bottom: 0; */
+    /* padding: 0; */
+}
+
+.project-url a {
+    color: black;
+    text-decoration: none;
+}
 
 .project-image {
-    width: 500px;
+    width: 400px;
     height: 300px;
 }
 
