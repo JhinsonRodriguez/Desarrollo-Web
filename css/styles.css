@@ -78,3 +78,104 @@ h6 {
     text-decoration: none;
     height: inherit;
 }
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    /* color: white; */
+    background-image: url(../images/jpg/hero.jpg);
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #1b2127;
+    margin: 0;
+}
+
+.hero-title strong {
+    color: #026fff;
+}
+
+.hero-title {
+    font-size: 30px;
+    margin: 0;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    color: white;
+    /* text-transform: uppercase; */
+    /* text-decoration: dashed; */
+
+    /* margin: TOP RIGHT BOTTOM LEFT; */
+    /* margin: 10px 150px 50px 30px; */
+
+    /* PARA CENTRAR UN ELEMENTO RESPECTO A LOS MARGENES DISPONIBLES SE UTILIZA */
+    /* margin: 0 auto; */
+
+}
+
+
+.portfolio {
+    background: #b4c4d1;
+    padding: 25px 0;
+}
+
+.portfolio-title {
+    margin: 0 40px;
+}
+
+
+.project {
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin: 50px 15px 0 30px;
+    padding: 20px 15px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+/* 
+.project-title,
+.project-course,
+.project-date,
+.project-url {
+    padding-left: 10;
+} */
+
+
+.project-title,
+.project-course,
+.project-date,
+.project-url {
+    margin: 0;
+}
+
+
+.project-details {
+    width: 500px;
+}
+
+
+.footer {
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+
+
+.footer-logo {
+    width: 60px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.footer-credits {
+    margin-right: 10px;
+}
+.footer a {
+    color: white;
+}
