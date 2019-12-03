@@ -255,21 +255,18 @@ h6 {
 }
 
 .eventContainer {
-    /* border: 1px solid black; */
     display: flex;
     width: inherit;
     flex-wrap: wrap;
-    /* width: 400px; */
-    /* height: 500px; */
     justify-content: space-between;
 }
 
 
 .event {
     /* border: 1px solid black; */
-    width: 400px;
+    max-width: 38%;
     height: 550px;
-    margin: 0 30px 30px;
+    margin: 0 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -277,18 +274,18 @@ h6 {
 }
 
 .event-imageContainer {
-    width: 400px;
+    width: 100%;
     height: 300px;
     margin: 0;
     padding: 0;
     /* border: 1px solid black; */
     border-radius: 20px;
     overflow: hidden;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 .event-image {
-    width: 400px;
+    width: 100%;
     height: 300px;
     object-fit: cover;
     
@@ -465,35 +462,20 @@ h6 {
 }
 
 
-@media screen and (max-width: 768px) {
-}
-
 /* Desktop first --> Es mejor empezar por la resolución mas grande de pantalla */
 
-@media screen and (max-width: 1024px) {
-
-}
 
 /* La primera queri es la mas común, pero en nustro poyecto se ve bien con una resolución de 768px, así que cuando baje 1px osea 767px, se utilizará esta queri. */
 /* @media screen and (max-width: 768px) */
 @media screen and (max-width: 767px) {
-    /* .headerContainer {
-        height: auto;
-    }
-
-     */
     .header {
         display: block;
         height: auto;
     }
-
+    
     .header-logoContainer {
         text-align: center;
     }
-
-    .menu {
-    }
-    
     
     .menu-list {
         display: block;
@@ -502,18 +484,19 @@ h6 {
     .menu-item {
         height: 50px;
     }
-
+    
     .menu-link {
         justify-content: center;
     }
-
+    
     .project {
         display: block;
         height: auto;
     }
-
+    
     .project-details {
         width: auto;
+        font-size: 16px;
     }
     
     .project-imageContainer {
@@ -521,14 +504,75 @@ h6 {
         height: auto;
         text-align: center;
     }
-}
 
-
-@media screen and (max-width: 480px) {
+    .project-title {
+        font-size: 1.5em;
+        margin-bottom: 0.2em;
+    }
     
+    .project-course {
+        margin-bottom: 0.2em;
+        font-size: 1em;
+    }
+    
+    .project-date {
+        font-size: 1em;
+        margin-bottom: 0.2em;
+    }
+    
+    .project-url {
+        font-size: 1em;
+        margin-bottom: 0.2em;
+    }
+
+    .project-description {
+        font-size: 0.8em;
+    }
+
+    .experienceContainer {
+        /* max-width: auto; */
+    }
+
+    .experience {
+        max-width: 100%;
+    }
+
+    .experience-title {
+        /* max-width: 50%; */
+    }
+
+    .eventContainer {
+        max-width: 100%;
+        display: block;
+        /* justify-content: center; */
+    }
+        
+    .event {
+        max-width: 100%;
+        margin: 0 5%;
+    }
+
+    .event-imageContainer {
+        /* text-align: center; */
+    }
+
+    .event-detail {
+        width: 70%;
+        margin: -10% 15% 0;  ;
+    }
 }
+
 
 
 @media screen and (max-width: 320px) {
+}
+
     
+@media screen and (max-width: 480px) {
+    
+}
+    
+@media screen and (max-width: 1024px) {
+    
+    }
 }
