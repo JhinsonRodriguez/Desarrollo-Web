@@ -186,7 +186,7 @@ h6 {
 } 
 
 .project-details {
-    width: 400px;
+    width: 50%;
 }
 
 .project-course,
@@ -215,9 +215,15 @@ h6 {
     text-decoration: none;
 }
 
-.project-image {
-    width: 400px;
+.project-imageContainer {
+    width: 50%;
     height: 300px;
+    margin: 0;
+}
+
+.project-image {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* 
@@ -471,6 +477,11 @@ h6 {
 /* La primera queri es la mas común, pero en nustro poyecto se ve bien con una resolución de 768px, así que cuando baje 1px osea 767px, se utilizará esta queri. */
 /* @media screen and (max-width: 768px) */
 @media screen and (max-width: 767px) {
+    .headerContainer {
+        height: auto;
+    }
+
+    
     .header {
         display: block;
         height: auto;
@@ -480,16 +491,35 @@ h6 {
         text-align: center;
     }
 
+    .menu {
+    }
+    
+    
     .menu-list {
         display: block;
     }
-
+    
     .menu-item {
         height: 50px;
     }
 
     .menu-link {
         justify-content: center;
+    }
+
+    .project {
+        display: block;
+        height: auto;
+    }
+
+    .project-details {
+        width: auto;
+    }
+    
+    .project-imageContainer {
+        width: auto;
+        height: auto;
+        text-align: center;
     }
 }
 
