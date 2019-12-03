@@ -24,7 +24,7 @@ h6 {
     color: white;
     margin: 0;
     padding: 0;
-    height: 70px;
+    height: auto;
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: center; */
@@ -477,11 +477,11 @@ h6 {
 /* La primera queri es la mas común, pero en nustro poyecto se ve bien con una resolución de 768px, así que cuando baje 1px osea 767px, se utilizará esta queri. */
 /* @media screen and (max-width: 768px) */
 @media screen and (max-width: 767px) {
-    .headerContainer {
+    /* .headerContainer {
         height: auto;
     }
 
-    
+     */
     .header {
         display: block;
         height: auto;
