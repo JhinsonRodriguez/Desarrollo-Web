@@ -608,6 +608,8 @@ h6 {
     .social-facebook,
     .social-github,
     .social-instagram {
+        width: 10%;
+        height: 10%;
         margin: 5%;
     }
 
