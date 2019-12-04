@@ -28,6 +28,11 @@ h6 {
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: center; */
+    /* text-align: center; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 
@@ -560,6 +565,74 @@ h6 {
         width: 70%;
         margin: -10% 15% 0;  ;
     }
+
+    .contactContainer {
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .contact {
+        display: block;
+    }
+    
+    
+    .form-email {
+        width: auto;
+        margin: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .form-input {
+
+    }
+
+    .button {
+        display: block;
+        text-align: center;
+    }
+
+    .form {
+
+    }
+
+    .socials {
+        height: auto;
+        width: auto;
+        margin: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .social-twitter,
+    .social-facebook,
+    .social-github,
+    .social-instagram {
+        margin: 5%;
+    }
+
+    .footer {
+        height: auto;
+        padding: 20px 0 20px 0;
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .footer-message,
+    .footer-credits {
+        margin: 0;
+    }
+
+    .footer-logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer p {
+        margin: 0;
+    }
+    
 }
 
 
