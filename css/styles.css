@@ -591,7 +591,7 @@ h6 {
         /* background-color: #026fff; */
         position: fixed;
         top: 0;
-        left: 0;
+        left: -100vw;
         /* bottom: 0;         */
         z-index: 4;
         width: 100vw;
@@ -599,7 +599,11 @@ h6 {
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: .5s;
+    }
 
+    .menu.is-active {
+        left: 0;
     }
 
     .menu-list {
